@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adam_cal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="array3d.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="atom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="atom_base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="atom_constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="atom_type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bfgs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="brick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="conf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="convert_substring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="coords.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="curl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="current_weights.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="energy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="everything.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="grid_dim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="igrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="incrementable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="int_pow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lshade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="manifold.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="monte_carlo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mutate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="my_pid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="naive_non_cache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="non_cache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel_mc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parallel_progress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_pdbqt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pdb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="precalculate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quasi_newton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="recent_history.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scoring_function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ssd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statistics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="szv_grid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tee.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="terms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="triangular_matrix_index.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="weighted_terms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nsga2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cache.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="coords.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="current_weights.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="everything.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="grid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lshade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="manifold.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monte_carlo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mutate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="my_pid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="naive_non_cache.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="non_cache.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="parallel_mc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="parallel_progress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="parse_pdbqt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pdb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="quasi_newton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="quaternion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ssd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="szv_grid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="terms.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="weighted_terms.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nsga2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
