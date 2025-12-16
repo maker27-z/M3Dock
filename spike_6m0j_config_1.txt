@@ -1,0 +1,20 @@
+receptor = ../6m0j_receptor.pdbqt
+ligand = ../ZINC000245190612.pdbqt
+target = ../ZINC000245190612.pdbqt
+center_x = -34.704
+center_y = 33.025
+center_z = 1.163
+
+size_x = 22.5
+size_y = 22.5
+size_z = 22.5
+
+out =  ../docking_out.pdbqt		#optional
+log = ../docking_log.txt		#optional
+
+cpu = 1
+exhaustiveness = 1
+
+num_modes = 20  			#optional
+
+energy_range = 5
