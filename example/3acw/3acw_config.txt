@@ -1,0 +1,14 @@
+receptor = ../coreset_pdbqt/3acw/3acw_protein.pdbqt
+ligand = ../coreset_pdbqt/3acw/3acw_ligand.pdbqt
+target = ../coreset_pdbqt/3acw/3acw_ligand.pdbqt
+
+center_x = 55.65
+center_y = 12.676
+center_z = 52.014
+
+size_x = 22.5
+size_y = 22.5
+size_z = 22.5
+
+cpu=1
+exhaustiveness=1

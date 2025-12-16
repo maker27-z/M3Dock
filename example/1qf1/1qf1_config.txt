@@ -1,0 +1,14 @@
+receptor = ../coreset_pdbqt/1qf1/1qf1_protein.pdbqt
+ligand = ../coreset_pdbqt/1qf1/1qf1_ligand.pdbqt
+target = ../coreset_pdbqt/1qf1/1qf1_ligand.pdbqt
+
+center_x = 35.949
+center_y = 40.727
+center_z = -3.587
+
+size_x = 22.5
+size_y = 22.5
+size_z = 22.5
+
+cpu=1
+exhaustiveness=1

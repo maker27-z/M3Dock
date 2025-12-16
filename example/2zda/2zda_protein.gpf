@@ -1,0 +1,16 @@
+npts 40 40 40                        # num.grid points in xyz
+gridfld 2zda_protein.maps.fld        # grid_data_file
+spacing 0.375                        # spacing(A)
+receptor_types A C OA N SA HD        # receptor atom types
+ligand_types A C HD OA N             # ligand atom types
+receptor 2zda_protein.pdbqt          # macromolecule
+gridcenter 15.959 -12.704 22.805     # xyz-coordinates or auto
+smooth 0.5                           # store minimum energy w/in rad(A)
+map 2zda_protein.A.map               # atom-specific affinity map
+map 2zda_protein.C.map               # atom-specific affinity map
+map 2zda_protein.HD.map              # atom-specific affinity map
+map 2zda_protein.OA.map              # atom-specific affinity map
+map 2zda_protein.N.map               # atom-specific affinity map
+elecmap 2zda_protein.e.map           # electrostatic potential map
+dsolvmap 2zda_protein.d.map              # desolvation potential map
+dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant

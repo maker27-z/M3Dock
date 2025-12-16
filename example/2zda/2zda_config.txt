@@ -1,0 +1,14 @@
+receptor = ../coreset_pdbqt/2zda/2zda_protein.pdbqt
+ligand = ../coreset_pdbqt/2zda/2zda_ligand.pdbqt
+target = ../coreset_pdbqt/2zda/2zda_ligand.pdbqt
+
+center_x = 15.883
+center_y = -12.854
+center_z = 22.556
+
+size_x = 22.5
+size_y = 22.5
+size_z = 22.5
+
+cpu=1
+exhaustiveness=1
