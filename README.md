@@ -62,13 +62,14 @@ MogaDock/LSHADE_Adam_final_nsga2/parameter
 
 示例相关文件可在以下目录中查看：
 
-./cmake-build-debug-bigdata42
+./cmake-build-debug
 
 ---
 
 ## 四、执行命令示例
 
 ```bash
---config ./4rvk/4rvk_config.txt \
---out ./4rvk/4rvk_ligand_1_out.pdbqt \
---log ./4rvk/4rvk_ligand_1_out.log
+./cmake-build-debug/LSHADE_Adam_final \
+--config ./example/1qf1/41qf1_config.txt \
+--out ./out/1qf1/1qf1_ligand_out.pdbqt \
+--log ./out/1qf1/1qf1_ligand_out.log
