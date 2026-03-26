@@ -1,5 +1,4 @@
 # M3Dock：A Collaborative Evolutionary–Gradient Optimization Framework for Multi-Objective Molecular Docking
-# Program Execution and Docking Preparation Guide
 
 ## 1. Environment Setup
 
