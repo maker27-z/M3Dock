@@ -52,3 +52,25 @@ To calculate the **van der Waals (VDW) energy scoring function**, you need to ge
 ### Parameter Directory
 
 The following directory is required:
+./cmake-build-debug/parameter
+
+
+---
+
+## 3. Example File Location
+
+Example files can be found in:
+
+
+./cmake-build-debug
+
+
+---
+
+## 4. Example Command
+
+```bash
+./cmake-build-debug/LSHADE_Adam_final \
+--config ./example/1qf1/41qf1_config.txt \
+--out ./out/1qf1/1qf1_ligand_out.pdbqt \
+--log ./out/1qf1/1qf1_ligand_out.log
