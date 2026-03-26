@@ -55,16 +55,13 @@ The following directory is required:
 
 ./cmake-build-debug/parameter
 
-
 ---
 
 ## 3. Example File Location
 
 Example files can be found in:
 
-
 ./cmake-build-debug
-
 
 ---
 
