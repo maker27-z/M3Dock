@@ -54,7 +54,7 @@
 
 以下目录中的文件是必须的：
 
-MogaDock/LSHADE_Adam_final_nsga2/parameter
+./cmake-build-debug/parameter
 
 ---
 
