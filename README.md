@@ -1,75 +1,55 @@
-# M3Dock
-# 程序运行与对接准备说明
+# M3Dock：A Collaborative Evolutionary–Gradient Optimization Framework for Multi-Objective Molecular Docking
+# Program Execution and Docking Preparation Guide
 
-## 一、运行环境配置
+## 1. Environment Setup
 
-在服务器上安装 **Boost 1.70.0** 库：
+Install **Boost 1.70.0** on the server:
 
-- 安装教程参考：
+- Installation tutorial:
   👉 https://blog.csdn.net/weixin_40998263/article/details/144429066
 
--  注意：
-  - 建议使用管理员权限执行安装：
+- ⚠️ Note:
+  - It is recommended to run commands with administrator privileges:
     ```bash
     sudo ...
     ```
-  - 否则可能导致安装失败
+  - Otherwise, the installation may fail
 
 ---
 
-## 二、对接前的准备
+## 2. Pre-docking Preparation
 
-### 蛋白质相关文件
-需要准备以下文件：
+### Protein Files
+The following files are required:
 
 - `protein.pdb`
 - `protein.pdbqt`
 
 ---
 
-### 配体相关文件
-需要准备以下文件：
+### Ligand Files
+The following files are required:
 
 - `ligand.mol`
 - `ligand.pdbqt`
 
 ---
 
-### VDW 能量评分函数所需文件
+### Files for VDW Energy Scoring Function
 
-为了计算 **vdw 能量评分函数**，需要通过 **AutoDock4** 生成相关文件：
+To calculate the **van der Waals (VDW) energy scoring function**, you need to generate related files using **AutoDock4**:
 
-- 教程参考：
+- Tutorial:
   👉 https://autodock-vina.readthedocs.io/en/latest/docking_basic.html
 
 ---
 
-### 配置文件
+### Configuration File
 
 - `config.txt`
 
 ---
 
-### 参数文件目录
+### Parameter Directory
 
-以下目录中的文件是必须的：
-
-./cmake-build-debug/parameter
-
----
-
-## 三、示例文件位置
-
-示例相关文件可在以下目录中查看：
-
-./cmake-build-debug
-
----
-
-## 四、执行命令示例
-
-```bash
-./cmake-build-debug/LSHADE_Adam_final \
---config ./example/1qf1/41qf1_config.txt \
---out ./out/1qf1/1qf1_ligand_out.pdbqt \
---log ./out/1qf1/1qf1_ligand_out.log
+The following directory is required:
